@@ -1,0 +1,105 @@
+
+#ac{
+  vertical-align: top;
+}
+#ab{
+  vertical-align: top;
+}
+#all{
+  text-align: center;
+  background-color: #FAFAFA;
+  margin-right: 25px;
+}
+#center1{
+  text-align: center;
+
+}
+#wow{
+  display: block;
+}
+
+#left{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 100px;
+}
+#right{
+  display: inline-block;
+  text-align: center;
+  background-color: #FAFAFA;
+
+
+}
+.login
+{
+  background-color: #3897F0;
+  border-style: none;
+  width: 350px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+
+}
+.user
+{
+  width: 200px;
+  height: 30px;
+  display: block;
+  margin: 5px auto;
+  width: 300px;
+  height: 40px;
+    border-radius: 5px;
+      color: #999999;
+
+
+}
+#right_top{
+
+  margin-top: 50px;
+  border-style: ridge;
+  background-color: #FFFFFF;
+  width: 450px;
+
+}
+#bot{
+  height: 50px;
+  border-style: ridge;
+  text-align: center;
+  height: 80px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+}
+.ban
+{
+  color: white;
+  background-color: #000000;
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+
+
+}
+#inf
+{
+  text-align: left;
+
+}
+.col
+{
+  color: #999999;
+}
+#pic
+{
+  width: 600px;
+  margin-right: 20px;
+}
+#face{width: 40px;
+margin-top: 7px;
+}
+#last{
+  margin-top: 40px;
+}
+#essetional-option{
+  color: red;
+
+}

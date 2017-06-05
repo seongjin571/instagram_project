@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="/stylesheets/home.css"</link>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js">
+  window.onload=function(){
+
+
+  function click()
+{
+  var b=document.getElementsByName("login_id").value;
+  var c=document.getElementsByName("login_password").value;
+$.ajax({
+  url:'/home',
+  dateType: 'json',
+  type:'POST',
+  data:{id:b,
+    password:c},
+  success: function(result){
+    console.log('wow');
+    if(result['result']=='success')
+    {
+      console.log('ajax success');
+    }
+  },
+error: function(){
+  console.log('why');
+}
+});
+}
+}
+  </script>
+
+</head>
+<body>
+  <div id="all">
+  <div>
+<img id="left" src="/images/insta2.jpg">
+  </div>
+  <div id="right">
+  <div id="right-top">
+<img src="/images/sungjin.jpg">
+<form action="input.jsp" method="post">
+  <input class="form"type="text" name="login_id" placeholder="사용자 이름" value=""></input><br/>
+  <input class="form" type="password" name="login_password" placeholder="비밀번호" value=""></input>
+</form>
+<button id="loginbutton" type="submit" onclick="click()"><font size="4">로그인</font></button><br/>
+<a href='http://54.70.8.39:3000/timeline'>로그인 하시겠습니까?</a>
+  </div>
+  <div id="right-bottom">
+    <p>계정이 없으신가요?<a href="http://54.70.8.39:3000/login">가입하기</a></p>
+  </div>
+  <div>
+    <p>앱을 다운로드 하세요.</p>
+    <button class="black-button"type="button">APP STORE에서 <br/>다운로드하기</button>
+    <button class="black-button"type="button">다운로드 하기 <br/>GOOGLE play</button><br/>
+    <audio id="song"src="/images/giriboy.mp3"controls></audio>
+  </div>
+</div>
+</div>
+</body>
+</html>

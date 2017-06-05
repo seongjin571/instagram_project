@@ -1,0 +1,196 @@
+#t1{
+      display: -webkit-inline-box;
+      margin-right: 180px;
+
+}
+#t2{
+
+margin-bottom: 10px;
+    display: -webkit-inline-box;
+
+}
+#t3{
+    display: -webkit-inline-box;
+    margin-left: 180px;
+
+}
+#sj{
+  width: 100px;
+  margin-top: 7px;
+}
+#d{
+  color: #999999;
+}
+#top{
+  margin-top: 5px;
+  text-align: center;
+  height: 60px;
+  border-bottom-style: groove;
+      border-bottom-width: thin;
+}
+.t0{
+  margin-left: 15px;
+}
+.t{
+  margin-left: 10px;
+}
+
+.mid2
+{
+
+margin-top: 55px;
+background-color: #FFFFFF;
+border-style: ridge;
+width: 400px;
+height: 720px;
+margin-left: 450px;
+border-color: white;
+}
+.m11{
+  display: inline-flex;
+  border-style:grid;
+  border-width: thin;
+
+}
+#mp{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+#m1{
+  height: 40px;
+  margin-bottom: 18px;
+  margin-top: -10px;
+}
+.ma{
+  background-color: #FAFAFA;
+
+}
+#bot{
+  margin-bottom: -3px;
+  margin-left: 8px;
+  height: 210px;
+}
+#tag{
+  color: #006CB6
+}
+.dot{
+  margin-top: -13px;
+}
+#do{
+  margin-top: -8px;
+}
+#fo{
+  width: 200px;
+  height: 22px;
+  background-color: #FAFAFA;
+  text-align: center;
+  color: #999999;
+}
+#side{
+  color: #999999;
+  margin-top: 11px;
+  margin-left: 120px;
+  width: 100px;
+}
+#tt{
+  margin-top: 2px;
+}
+
+#modalbutton
+{
+    margin-top: -20px;
+  border-style: none;
+  background-color: white;
+    float: right;
+}
+#bb{
+  display: inline;
+}
+#mostbottom{
+  margin-top: 20px;
+      border-top-style: inherit;
+
+}
+#heart{
+  float: left;
+}
+#modalall{
+  text-align: center;
+  width: 400px;
+
+}
+.button-in-modal{
+  border-style: none;
+  background-color: white;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+    height: 100px;/* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close1 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#row{
+  border-color: #4285F4;
+}
+.modalbu{
+  border-style: none;
+  background-color: white;
+}
+#ff {
+  margin-top: 10px;
+  width: 200px;
+}
+#fo:focus{
+  text-align: left;
+}
+
+
+#reply{
+  margin-top: 5px;
+}
+#heart{
+  margin-left: 2px;
+    margin-top: 2px;
+}
+#heart:focus{
+
+    background-image: url("/images/heart.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-style: none;
+
+}

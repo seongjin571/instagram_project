@@ -1,0 +1,273 @@
+#Top{display: flex;
+
+height: 50px;
+     border-bottom-style: groove;
+     border-bottom-width: thin;
+ }
+#t-1{
+    display: -webkit-inline-box;
+    margin-left: 90px;
+
+}
+#t-2{
+    margin-left: 250px;
+    margin-top: 10px;
+
+}
+#t-3{
+    margin-left: 300px;
+
+}
+.t-1{
+  margin-left: 10px;
+}
+.t-3{
+  margin-left: 10px;
+}
+#sungjin{
+  width: 120px;
+  height: 40px;
+}
+#finder{
+  background-color: #FAFAFA;
+  text-align: center;
+  height: 24px;
+}
+#mid{background-color: #FAFAFA;}
+#mid-top{
+  width: 760px;
+  height: 160px;
+  margin-left: 300px;
+  display: inline-flex;
+}
+#mid-bottom{
+  width: 760px;
+  height: 460px;
+  margin-left: 300px;
+}
+#picture-position{
+  width: 200px;
+  height: 160px;
+}
+#picture-button
+{
+  background-color: #FAFAFA;
+  border-style: none;
+}
+#information{
+  width: 600px;
+  height: 160px;
+  margin-left: 20px;
+}
+#my-picture{
+  margin-left: 20px;
+margin-top: 20px;
+}
+#name-info{
+  width: 600px;
+  height: 30px;
+  margin-top: 30px;
+}
+#follow-info{
+  width: 600px;
+  height: 30px;
+  display: inline-flex;
+}
+#myname{
+  width: 600px;
+  height: 30px;
+}
+.follow{
+  margin-left: 50px;
+}
+#button{
+  margin-left: 20px;
+  background-color: #FAFAFA;
+    border-style: solid;
+    border-width: thin;
+    width: 100px;
+}
+.son{
+  margin: 10px;
+  width:220px;
+  height:220px;
+  border-style: none;
+
+
+}
+
+#modalall{
+  text-align: center;
+  width: 400px;
+
+}
+.button-in-modal{
+  border-style: none;
+  background-color: white;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+    height: 55px;
+}
+
+/* The Close Button */
+.close1 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+#modalall2{
+  text-align: center;
+}
+.close1:hover,
+.close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3:hover,
+.close3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+#row{
+  border-color: #4285F4;
+}
+.modalbu{
+  border-style: none;
+  background-color: white;
+}
+.modalbu1{
+  border-style: none;
+  background-color: white;
+}
+#ff {
+  margin-top: 7px;
+}
+#modalbutton{
+  background-color:#FAFAFA;
+  margin-left: 30px;
+  border-style: none;
+
+}
+#modal-content2{
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  height: 170px;
+}
+
+
+#content-in-box{
+  display: none;
+font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.sonmodal{
+
+      display: none;
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+#sonmodal-content{
+  width: 650px;
+  height: 400px;
+  display: inline-flex;
+  margin-left: 320px;
+  margin-top: 120px;
+  padding: 20px;
+}
+#sonmodal-pic{
+  width: 400px;
+  height: 400px;
+}
+#right-modal{
+  background-color: white;
+  width: 250px;
+  height: 400px;
+}
+#right-top{
+display: flex;
+  width: 250px;
+  height: 60px;
+}
+#right-good{
+  display: flex;
+  width: 250px;
+  height: 30px;
+}
+#right-reply{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 250px;
+height: 230px;
+}
+#right-bottom{
+  width: 250px;
+  height: 50px;
+  border-top-style: outset;
+
+}
+#weeks3{
+  margin-left: 70px;
+}
+#good{margin-left: 20px;}
+#modalimage{
+  margin-left: 75px;
+  background-color: white;
+  border-style: none;
+  margin-top: 10px;
+}
+#minipic{
+  margin-top: 10px;
+  margin-left: 10px;
+}
